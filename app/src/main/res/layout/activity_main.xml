@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFFFF0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="188dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/hasil"
+        android:layout_marginTop="20dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/answer"
+        android:layout_width="188dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/hasil"
+        android:layout_toRightOf="@id/delete"
+        android:layout_marginTop="20dp"
+        android:text="Answer" />
+
+    <Button
+        android:id="@+id/satu"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/delete"
+        android:layout_marginTop="20dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/dua"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/delete"
+        android:layout_toRightOf="@id/satu"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/delete"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/dua"
+        android:layout_marginTop="20dp"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/bagi"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/delete"
+        android:layout_toRightOf="@id/tiga"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:text="/"/>
+
+    <Button
+        android:id="@+id/empat"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/satu"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/lima"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/satu"
+        android:layout_toRightOf="@id/empat"
+        android:layout_marginLeft="6dp"
+        android:text="5"/>
+
+    <Button
+        android:id="@+id/enam"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/satu"
+        android:layout_toRightOf="@id/lima"
+        android:layout_marginLeft="6dp"
+        android:text="6"/>
+
+    <Button
+        android:id="@+id/kurang"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/satu"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/enam"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/tujuh"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/empat"
+        android:text="7"/>
+
+    <Button
+        android:id="@+id/delapan"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/empat"
+        android:layout_toRightOf="@id/tujuh"
+        android:layout_marginLeft="6dp"
+        android:text="8"/>
+
+    <Button
+        android:id="@+id/sembilan"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/empat"
+        android:layout_toRightOf="@id/delapan"
+        android:layout_marginLeft="6dp"
+        android:text="9"/>
+
+    <Button
+        android:id="@+id/kali"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/empat"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/sembilan"
+        android:text="X" />
+
+    <Button
+        android:id="@+id/titik"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/tujuh"
+        android:text="."/>
+
+    <Button
+        android:id="@+id/nol"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/tujuh"
+        android:layout_toRightOf="@id/titik"
+        android:layout_marginLeft="6dp"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/persen"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/tujuh"
+        android:layout_toRightOf="@id/nol"
+        android:layout_marginLeft="6dp"
+        android:text="%"/>
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/tujuh"
+        android:layout_toRightOf="@id/persen"
+        android:layout_marginLeft="6dp"
+        android:text="+"/>
+
+</RelativeLayout>
